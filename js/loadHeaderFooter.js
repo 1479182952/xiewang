@@ -13,4 +13,12 @@ define(["jquery", "cookie"], function($){
 			}
 		}
 	});
+	$.ajax({
+		type:'get',
+		url:"/html/include/footer.html",
+		success:function(data){
+			$(data).appendTo(".footer");
+		}
+	})
+
 });
