@@ -1,0 +1,17 @@
+{
+  "name": "xiewang",
+  "version": "1.0.0",
+  "description": "天狗商城",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-uglify": "^3.0.0"
+  }
+}
